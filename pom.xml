@@ -41,7 +41,13 @@
     </dependencyManagement>
 
     <dependencies>
-        <!-- langchain4j OpenAI Spring Boot 4 Starter -->
+        <!-- Spring Boot Web Starter -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- langchain4j OpenAI Spring Boot 4 Starter（底层对接 DeepSeek） -->
         <dependency>
             <groupId>dev.langchain4j</groupId>
             <artifactId>langchain4j-open-ai-spring-boot4-starter</artifactId>

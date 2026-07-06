@@ -1,0 +1,10 @@
+# DeepSeek API 配置（通过 OpenAI 兼容接口）
+langchain4j:
+  open-ai:
+    chat-model:
+      # DeepSeek API Key
+      api-key: ${DEEPSEEK_API_KEY:your-deepseek-api-key}
+      # DeepSeek API 地址
+      base-url: https://api.deepseek.com
+      # 模型名称
+      model-name: deepseek-v4-pro

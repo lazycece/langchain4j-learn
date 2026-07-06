@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn compile:*)",
+      "Bash(mvn dependency:tree -q -Dincludes=dev.langchain4j)"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+### Chat 对话测试
+POST http://localhost:8080/chat
+Content-Type: application/json
+
+{
+  "message": "你好，请简单介绍一下你自己"
+}
+
+### Chat 对话测试 - 翻译
+POST http://localhost:8080/chat
+Content-Type: application/json
+
+{
+  "message": "把以下内容翻译成英文：今天天气真好"
+}
