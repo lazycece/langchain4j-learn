@@ -1,6 +1,6 @@
 ## 工程环境
 - Java 版本 17
-- langchain4j 版本 1.17.2
+- langchain4j 版本 1.17.1
 - Spring Boot 版本 4.1.0
 - langchain4j-open-ai-spring-boot4-starter 版本 1.17.1
 
