@@ -1,0 +1,35 @@
+### AI 助手流式对话 - 基本对话
+POST http://localhost:8080/ai/chat
+Content-Type: application/json
+
+{
+  "memoryId": "test-session-001",
+  "message": "你好，请简单介绍一下你自己"
+}
+
+### AI 助手流式对话 - 多轮对话（记忆测试）
+POST http://localhost:8080/ai/chat
+Content-Type: application/json
+
+{
+  "memoryId": "test-session-001",
+  "message": "我刚才问了你什么？"
+}
+
+### AI 助手流式对话 - 空 message 校验
+POST http://localhost:8080/ai/chat
+Content-Type: application/json
+
+{
+  "memoryId": "test-session-002",
+  "message": ""
+}
+
+### AI 助手流式对话 - 空 memoryId 校验
+POST http://localhost:8080/ai/chat
+Content-Type: application/json
+
+{
+  "memoryId": "",
+  "message": "你好"
+}

@@ -47,6 +47,18 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!-- langchain4j 核心模块，提供 @AiService、TokenStream、ChatMemory 等 -->
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j</artifactId>
+        </dependency>
+
+        <!-- langchain4j Spring Boot 4 Starter，提供 @AiService 注解扫描和自动代理 -->
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-spring-boot4-starter</artifactId>
+        </dependency>
+
         <!-- langchain4j OpenAI Spring Boot 4 Starter（底层对接 DeepSeek） -->
         <dependency>
             <groupId>dev.langchain4j</groupId>
@@ -71,6 +83,7 @@
                 <configuration>
                     <source>17</source>
                     <target>17</target>
+                    <parameters>true</parameters>
                 </configuration>
             </plugin>
         </plugins>

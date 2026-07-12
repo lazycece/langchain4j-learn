@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(mvn compile:*)",
-      "Bash(mvn dependency:tree -q -Dincludes=dev.langchain4j)"
+      "Bash(mvn dependency:tree -q -Dincludes=dev.langchain4j)",
+      "Read(//c/Users/lazyc/.m2/repository/dev/langchain4j/**)",
+      "Bash(2)"
     ]
   }
 }
